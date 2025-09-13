@@ -275,7 +275,18 @@ body {
   body {
     font-size: 16px;
   }
-  
+
+  .page-container,
+  .section-padding,
+  .section-padding-lg {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+  .container {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
   .page-container {
     padding-top: 5rem;
     padding-bottom: 2rem;
@@ -296,7 +307,18 @@ body {
     background: rgba(15, 23, 42, 0.8);
     border: 1px solid rgba(148, 163, 184, 0.2);
   }
-  
+
+  /* Adiciona margem mínima nos cards no mobile */
+  .card-modern,
+  .card-feature,
+  .card-service,
+  .card-compact {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
   .text-hero {
     font-size: clamp(2rem, 8vw, 3.5rem);
     line-height: 1.1;
