@@ -285,13 +285,17 @@ body {
     font-size: 16px;
   }
 
-  .page-container,
-  .section-padding,
-  .section-padding-lg {
+  .container,
+  .page-container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
     padding-left: 6px !important;
     padding-right: 6px !important;
   }
-  .container {
+
+  .section-padding,
+  .section-padding-lg {
     padding-left: 6px !important;
     padding-right: 6px !important;
   }
