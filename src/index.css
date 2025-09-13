@@ -498,3 +498,14 @@ body {
     transform: translateY(6px) scale(1.08);
   }
 }
+
+@media (min-width: 769px) {
+  .container,
+  .page-container {
+    width: auto !important;
+    max-width: 1200px !important;
+    overflow-x: visible !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
