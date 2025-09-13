@@ -321,7 +321,7 @@ const Home = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center section-padding-lg relative overflow-hidden">
+      <section className="min-h-screen flex items-center justify-center section-padding-lg relative overflow-hidden pt-32">
         <NeuralNetworkBackground className="neural-network-hero" opacity={0.4} />
         <div className="background-grid"></div>
         <div className="hero-glow"></div>

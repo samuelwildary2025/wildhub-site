@@ -34,13 +34,13 @@ const Header = () => {
         scrolled || isOpen ? 'bg-slate-950/80 backdrop-blur-lg border-b border-blue-500/10' : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-6 py-2">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
   <img
     src="/logo.png"
     alt="Wild Hub"
-    className="h-24 w-auto"
+    className="h-16 w-auto"
   />
 </Link>
 
