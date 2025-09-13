@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+header img[src="/logo.png"] {
+  display: block !important;
+  height: 64px !important;
+  width: auto !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+}
 @layer base {
   :root {
     --background: 224 71.4% 4.1%;
@@ -475,13 +484,4 @@ body {
   }
 }
 
-@keyframes inner-arrow {
-  0%, 100% {
-    opacity: 0.8;
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(6px) scale(1.1);
-  }
-}
+@
