@@ -50,7 +50,7 @@ const CaseStudies = () => {
       </Helmet>
 
       <div className="page-container bg-slate-950">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
