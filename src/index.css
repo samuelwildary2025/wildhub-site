@@ -10,6 +10,18 @@ header img[src="/logo.png"] {
   margin: 0 !important;
   padding: 0 !important;
   background: none !important;
+  visibility: visible !important;
+  z-index: 999 !important;
+}
+
+header nav {
+  position: relative !important;
+  z-index: 998 !important;
+}
+
+header {
+  position: fixed !important;
+  z-index: 997 !important;
 }
 @layer base {
   :root {
